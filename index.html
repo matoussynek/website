@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logoBgd.png"/>
+</head>
+
+<body>
+    <div class="topnav">
+        <div id="myLinks">
+            <a href="code/">Code</a>
+            <a href="music/">Music</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <!-- <i class="fa-light fa-equals"></i> -->
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="title_wrapper">
+        <div class="upper_title">
+            hi, i'm
+        </div>
+        <div class="lower_title">
+            matous synek
+            <span class="asterisk">&#128943;</span>
+        </div>
+
+    </div>
+    <div class="joke_title">
+        &#128943;actually, i'm a website.</br>but i was built by him.
+    </div>
+    <div class="text">
+        there's not much to see. maybe someday... </br>
+        but you can check out some of my <a href="code/"><b>coding</b></a> and
+        <a href="music/"><b>music</b></a> projects. </br>
+        wanna talk music, programming, design or games? contact me on my socials.
+    </div>
+    <footer class="social-footer">
+        <ul class="socials">
+            <li><a href="mailto:matoussynek@outlook.cz"><i class="fa-regular fa-envelope"></i></a></li>
+            <li><a href="https://www.instagram.com/matoussynek/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/matou%C5%A1-synek-27498721a"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.youtube.com/user/BiforBeats"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </footer>
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+
+</html>

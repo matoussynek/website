@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>music.matoussynek.com</title>
+      
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+      
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet"> 
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <script src="js/p5.min.js"></script>
+      <script src="js/p5.sound.min.js"></script>
+      <link rel="stylesheet" href="css/main.css">
+
+      
+      
+</head>
+<body>
+    <div class="contain">
+        <div class="container">
+                <div class="logo">
+                        <a href="http://matoussynek.com">
+                              <img class="logo-img" src="assets/logo.ico"/>
+                              matoussynek.com</a>
+                  </div>
+            <div class="music-player">
+                <div class="cover">
+                    <img id="cover-img" src="assets/touch-bg.jpg" alt="">   
+                </div>
+                <div class="titre">
+                    <h3 id="author">Matouš Synek</h3>
+                    <h1 id="song">Touch</h1>
+                </div>
+                <div class="lecteur">
+                    <ion-icon id="rewind-butt" onclick="prevSong()" name="rewind"></ion-icon>
+                    <ion-icon id="play-butt" name="play" onclick="playstop()"></ion-icon>
+                    <ion-icon id="stop-butt" name="pause" onclick="playstop()"></ion-icon>
+                    <ion-icon id="fastforward-butt" onclick="nextSong()" name="fastforward"></ion-icon>
+                    <ion-icon id="youtube-butt" onclick="openLink()" name="logo-youtube"></ion-icon>
+                </div>
+                <div class="slider-div">
+                    <div class="left time" id="left">0:00</div>
+                    <input type="range" min="0" max="100" value="0" step="1" class="slider" id="slider" />
+                    <div class="right time" id="right">0:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/music-player.js"></script>    
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Outfit-Bold";
+    src: url("../../css/Outfit-Bold.otf");
+}
+
+@font-face {
+    font-family: "Outfit-Light";
+    src: url("../../css/Outfit-Light.otf");
+}
+body{
+    /* background: #636564; */
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: Outfit-Bold, sans-serif;
+}
+.logo {
+    position: fixed;
+    /*font-family: "Roboto";*/
+    font-family: Outfit-Bold, sans-serif;
+    line-height: 80px;
+    margin-left: 2em;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: lighter !important;
+    /*text-transform: uppercase;*/
+    z-index: 1;
+    
+}
+.logo ion-icon {
+    color: #6adb9d;
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+}
+.logo a{
+    color: #0a0a0a;
+    text-decoration: none;
+    
+}
+.logo-img{
+    color: #6adb9d;
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+a{
+    color: #0a0a0a;
+    text-decoration: none;
+}
+.samples{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:40%;
+    top:50%;
+    font-size: 5vh;
+}
+.presets{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:60%;
+    top:50%;
+    font-size: 5vh;
+}
+.title{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+.title h2{
+    color:  #0a0a0a;
+    font-size: 6vh;
+}
+.samples-list ul{
+    list-style: none;
+    
+}
+.samples-list li{
+    background-color: #eee;
+    padding: 5vh;
+    margin: 1.5vh;
+}
+.samples-list{
+    position: absolute;
+    transform: translate(-50%,0);
+    left: 50%;
+    top: 25%;
+    width: 60%;
+}
+.samples-list h4{
+    color: #0a0a0a;
+    font-size: 3vh;
+    padding-top: 0;
+}
+
+.samples-list p{
+    color: #0a0a0a;
+    font-family: Outfit-Light, sans-serif;
+}
+.samples-list a{
+    color: #0a0a0a;
+    font-family: Outfit-Bold, sans-serif;
+    text-decoration: underline;
+}

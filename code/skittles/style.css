@@ -1,0 +1,101 @@
+
+body{
+    background: #636564;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'IBM Plex Mono', monospace;
+    overflow: hidden;
+}
+.logo {
+    position: fixed;
+    /*font-family: "Roboto";*/
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 80px;
+    margin-left: 2em;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: lighter !important;
+    /*text-transform: uppercase;*/
+    z-index: 1;
+    
+}
+.logo ion-icon {
+    color: #6adb9d;
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+}
+.logo a{
+    color: rgb(200,200,200);;
+    text-decoration: none;
+    
+}
+.logo-img{
+    color: #6adb9d;
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+a{
+    color: rgb(200,200,200);
+    text-decoration: none;
+}
+#in{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    background-color: transparent;
+    width: 4%;
+    height: 50px;
+}
+#bu,#gn{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    background-color: transparent;
+    height: 50px;
+    width: 10%;
+    cursor: pointer;
+}
+#bu:hover, #gn:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+#gn{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    width: 15%;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    font-size: 4vh;
+    color: #fff;
+}

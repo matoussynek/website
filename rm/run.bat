@@ -1,0 +1,3 @@
+@echo off
+echo Starting server...
+call http-server
