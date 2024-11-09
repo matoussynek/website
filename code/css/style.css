@@ -61,6 +61,15 @@ a{
     transform: translate(-50%, -50%);
     font-family: Outfit-Bold, sans-serif;
 }
+.title_sub{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: 5vh;
+    color: #222;
+    transform: translate(-50%, -50%);
+    font-family: Outfit-Bold, sans-serif;
+}
 .constraint{
     position: absolute;
     top: 25%;
@@ -92,7 +101,7 @@ a{
     cursor: pointer;
     transform: translate(-50%, -50%);
 }
-.skittles{
+.flowers{
     position: absolute;
     left: 30%;
     top: 65%;
@@ -119,6 +128,15 @@ a{
     cursor: pointer;
     transform: translate(-50%, -50%);
 }
-.cc:hover, .skittles:hover, .expand:hover, .rm:hover{
+.ff{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    color: #0a0a0a;
+    font-size: 4vh;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+.cc:hover, .flowers:hover, .expand:hover, .rm:hover, .ff:hover{
     font-size: 4.5vh;
 }
