@@ -140,7 +140,7 @@ a{
 .cc:hover, .flowers:hover, .expand:hover, .rm:hover, .ff:hover{
     font-size: 4.5vh;
 }
-#timer{
+.timer{
     color: #0a0a0a;
     margin: 0;
     width: 100%;
@@ -149,4 +149,14 @@ a{
   justify-content: center;
   align-items: center;
   font-size: 10vh;
+}
+.speed{
+    color: #0a0a0a;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
 }
