@@ -1,0 +1,109 @@
+body {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal {
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.terminal-body {
+    padding: 20px;
+    overflow-y: auto;
+    height: 400px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: #00ff00;
+}
+
+.command {
+    color: #ffffff;
+}
+
+.result {
+    color: #ffffff;
+}
+
+input[type="text"] {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

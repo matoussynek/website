@@ -1,0 +1,670 @@
+{
+    "stages": [
+        {
+            "id": "1",
+            "message": "August 2024. You are about to get married, but you feel something's off. You are deciding whether to share this fear with someone or keep it for yourself.",
+            "options": [
+                {
+                    "text": "Look for a stranger online who could understand you",
+                    "next": "3"
+                },
+                {
+                    "text": "Keep it for yourself",
+                    "next": "2"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "message": "(The fuck...) You feel overwhelmed with emotions. The wedding is approaching and you are still not sure this is the life you always wanted for yourself.",
+            "options": [
+                {
+                    "text": "He loves me, I will get use to it.",
+                    "next": "13"
+                },
+                {
+                    "text": "Rethink and look for a friend.",
+                    "next": "3"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "message": "You found an app called Slowly that helps you find penpals.",
+            "options": [
+                {
+                    "text": "Start texting people.",
+                    "next": "5"
+                },
+                {
+                    "text": "Wait for people to approach you",
+                    "next": "4"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "message": "It is the day of the wedding. There is only one question that is important.",
+            "options": [
+                {
+                    "text": "I do",
+                    "next": "21"
+                },
+                {
+                    "text": "I don't",
+                    "next": "14"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "message": "You took an initiative and replies are flooding your inbox.",
+            "options": [
+                {
+                    "text": "This is not what I was looking for.",
+                    "next": "12"
+                },
+                {
+                    "text": "I like it too much to stop.",
+                    "next": "6"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "message": "You waited, but your inbox is full anyway..",
+            "options": [
+                {
+                    "text": "This is not what I was looking for.",
+                    "next": "12"
+                },
+                {
+                    "text": "I like it too much to stop.",
+                    "next": "6"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "message": "You realized the one you want to be with is already in a relationship with you.",
+            "options": [
+                {
+                    "text": "Continue",
+                    "next": "13"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "message": "You enjoy your time on Slowly, you are actually starting to create a deep and meaningful connections. But the unresolved situation with your boyfriend weights on you and you cannot open to new opportunities unless you close all doors behind you.",
+            "options": [
+                {
+                    "text": "Get back to your boyfriend",
+                    "next": "12"
+                },
+                {
+                    "text": "Break up with him and look for happiness elsewhere.",
+                    "next": "7"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "message": "All your fears disappear for a while. You feel like this is the place you were meant to be at. But at the same time there is the curious and creative part of you that is being neglected. You feel it with every workshop for gifted kids you do. You see how free the kids are and you start to feel envious of that feeling.",
+            "options": [
+                {
+                    "text": "I am where I am supposed to be.",
+                    "next": "27"
+                },
+                {
+                    "text": "Am I missing something?",
+                    "next": "22"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "message": "Really? You waited for the wedding day to say this? I see only two ways from here...",
+            "options": [
+                {
+                    "text": "I made a mistake...",
+                    "next": "15"
+                },
+                {
+                    "text": "It was a correct decision.",
+                    "next": "16"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "message": "It is a hard work to rebuild a trust that was shattered. But you managed to do it. You relationship continues. but this leads back to that day...",
+            "options": [
+                {
+                    "text": "Continue",
+                    "next": "13"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "message": "The life keeps going on.. It is not the kids you become envious of now, but rather their mothers. Are you ready to become one?",
+            "options": [
+                {
+                    "text": "I am ready",
+                    "next": "36"
+                },
+                {
+                    "text": "I am not ready",
+                    "next": "28"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "message": "There are many interesting conversations going for you. But there are two that you enjoy the most and you feel like there is a potential to evolve into something more. Both take a lot of your time and energy, so you need to make a decision.",
+            "options": [
+                {
+                    "text": "32yo psychologist from Zagreb",
+                    "next": "9"
+                },
+                {
+                    "text": "22yo programmer from far away",
+                    "next": "8"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "message": "Luckily for you, you know exactly what was the problem in that relationship for you. So what do you do next?",
+            "options": [
+                {
+                    "text": "Dating apps",
+                    "next": "17"
+                },
+                {
+                    "text": "Slowly",
+                    "next": "7"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "message": "What changed? You always wanted a children.",
+            "options": [
+                {
+                    "text": "It is the relationship",
+                    "next": "31"
+                },
+                {
+                    "text": "It is me",
+                    "next": "29"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "message": "You picked the psychologist. You obviously found a common interest, but will you be able to find that stronger connection? The one you missed with your ex?",
+            "options": [
+                {
+                    "text": "Get to know him better",
+                    "next": "10"
+                },
+                {
+                    "text": "Go on a date",
+                    "next": "11"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "message": "You are a weird girl you know... First of all, should I call the police? And second, this is the timeline we are on right now. So this is not and end, but the beginning. Can't wait for what the future has in store for us... LOVE YOU"
+        },
+        {
+            "id": "36",
+            "message": "You have a lovely baby girl called Una - the one you needed to be 11/10. She is a spitting image of you. A curious little creature who is much rather fed with knowledge than milk. You want only the best for her, you want to keep her spark alive, but you start to realize it is you who's spark is slowly dying.",
+            "options": [
+                {
+                    "text": "She is the most important thing in my life",
+                    "next": "54"
+                },
+                {
+                    "text": "I need to find my spark, so I can help her keep hers",
+                    "next": "37"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "message": "You are rediscovering the curious little kid in you who has been dormant for a long time. You feel so alive again and you feel the need to share it with someone.",
+            "options": [
+                {
+                    "text": "This was enough for me. I see it is still there, so I can continue with my life.",
+                    "next": "27"
+                },
+                {
+                    "text": "I am comfortable in this, I want to explore it more.",
+                    "next": "23"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "message": "Traditional dating apps are really bad. People there are desperate and lack the creativity.",
+            "options": [
+                {
+                    "text": "Worth a shot",
+                    "next": "18"
+                },
+                {
+                    "text": "Slowly?",
+                    "next": "7"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "message": "You start to doubt you relationship. Do you feel comfortable? Are all your need fulfilled? Why are you then not ready to have a child?",
+            "options": [
+                {
+                    "text": "Share this with your husband",
+                    "next": "33"
+                },
+                {
+                    "text": "Keep it to yourself",
+                    "next": "32"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "message": "You died!"
+        },
+        {
+            "id": "10",
+            "message": "You keep on chatting. He feels like the right one. He checks every box.",
+            "options": [
+                {
+                    "text": "Go on a date",
+                    "next": "11"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "message": "You feel like you have drifted too far from where you wanted to be. So this also changed your dreams of having a child.",
+            "options": [
+                {
+                    "text": "I need to find the old me again",
+                    "next": "22"
+                },
+                {
+                    "text": "Embrace the change",
+                    "next": "30"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "message": "August 2027. Una just turned 3. You have settled. You focused your life on her and your family. You are happy. Or are you?"
+        },
+        {
+            "id": "37",
+            "message": "It has been some time since you last felt alive. But it is still there somewhere. The question is, how are you gonna find it?",
+            "options": [
+                {
+                    "text": "Husband",
+                    "next": "53"
+                },
+                {
+                    "text": "Friends",
+                    "next": "51"
+                },
+                {
+                    "text": "Outside perspective",
+                    "next": "38"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "message": "The cycle continues... Coffee dates, vague conversations, casual sex, loooots of small talk..",
+            "options": [
+                {
+                    "text": "I am hopeful I will find someone for me",
+                    "next": "19"
+                },
+                {
+                    "text": "Slowly??",
+                    "next": "7"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "message": "Your husband starts noticing you drifting away from him. You find interests you two don't share. He confronts you with these thoughts.",
+            "options": [
+                {
+                    "text": "share you activities with him",
+                    "next": "26"
+                },
+                {
+                    "text": "Keep it to yourself, afterall it was your discovery",
+                    "next": "24"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "message": "You keep these feeling to yourself. But it weights on you like a track. You feel like you need to share this with someone.",
+            "options": [
+                {
+                    "text": "Husband",
+                    "next": "33"
+                },
+                {
+                    "text": "Friends",
+                    "next": "35"
+                },
+                {
+                    "text": "Therapist",
+                    "next": "34"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "message": "You see why you married him in the first place. You can imagine the future with him and you believe he could provide you with enough stimulation you require.",
+            "options": [
+                {
+                    "text": "Continue in the relationship",
+                    "next": "27"
+                },
+                {
+                    "text": "You are not sure. The seed of doubt has already been planted.",
+                    "next": "24"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "message": "You confront your husband with your feelings. He says he is ready and that this might be the extra boost your marriage needs.",
+            "options": [
+                {
+                    "text": "Agree",
+                    "next": "36"
+                },
+                {
+                    "text": "Disagree",
+                    "next": "29"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "message": "You are looking for a help from a stranger. But who should it be?",
+            "options": [
+                {
+                    "text": "Therapist",
+                    "next": "45"
+                },
+                {
+                    "text": "Stranger",
+                    "next": "39"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "message": "You confided in you husband. He says he understands, but does he really? Do you feel like he shares this spark with you? Could he really understand it? Is this enough for you?",
+            "options": [
+                {
+                    "text": "Yes",
+                    "next": "54"
+                },
+                {
+                    "text": "Back to the drawing board",
+                    "next": "37"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "message": "You are discovering your new self. But It makes you question your current marriage.",
+            "options": [
+                {
+                    "text": "Doubt the marriage.",
+                    "next": "31"
+                },
+                {
+                    "text": "This is the new me, why should I be bound by the old me decisions?",
+                    "next": "25"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "message": "It is not getting any better. You are getting more DMs than you can reply to. But you are SLOWLY loosing hope.",
+            "options": [
+                {
+                    "text": "The right one must come soon now...",
+                    "next": "20"
+                },
+                {
+                    "text": "Slowly???",
+                    "next": "7"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "message": "You enjoy spending more and more time on your own and with your friends. What is the purpose of your marriage then?",
+            "options": [
+                {
+                    "text": "I should give him a chance",
+                    "next": "26"
+                },
+                {
+                    "text": "Look for new people to share these insterests with",
+                    "next": "25"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "message": "The therapist suggests involving your husband to the conversation.",
+            "options": [
+                {
+                    "text": "Agree",
+                    "next": "33"
+                },
+                {
+                    "text": "Disagree",
+                    "next": "29"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "message": "You already have an amazing friends surrounding you. They are honest to you and they see you've changed and lost a part of yourself.",
+            "options": [
+                {
+                    "text": "Listen to them and let them help",
+                    "next": "52"
+                },
+                {
+                    "text": "Get anther opinion",
+                    "next": "38"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "message": "A therapist pushes you to remember the last time you experienced these feelings before. When was it?",
+            "options": [
+                {
+                    "text": "When I was falling in love",
+                    "next": "46"
+                },
+                {
+                    "text": "With friends",
+                    "next": "52"
+                },
+                {
+                    "text": "Adrenalin",
+                    "next": "44"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "message": "You try to find a stranger online who could understand you. Not in a romantic way. But someone to feed that hunger for curiosity you have always had. You find one, but in time you feel like this could become something more.",
+            "options": [
+                {
+                    "text": "Keep on..",
+                    "next": "40"
+                },
+                {
+                    "text": "Stop it. You already have a husband who you feel comfortable with.",
+                    "next": "43"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "message": "There is no helping you..."
+        },
+        {
+            "id": "35",
+            "message": "Friends tell you they have noticed the change. but the remind you you have committed to a marriage, so you should discuss this with your husband.",
+            "options": [
+                {
+                    "text": "Agree",
+                    "next": "33"
+                },
+                {
+                    "text": "Disagree",
+                    "next": "29"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "message": "August 2027. Una just turned 3. Your friends helped you find that missing piece. So now you can pass it along to Una. You accepted that you husband is in your life to make you feel safe and provide for your family. The other things you need for your fulfillment you find in your friends. You are happy and surrounded with people who love you."
+        },
+        {
+            "id": "44",
+            "message": "You believe you have identified the missing piece or maybe you just found a good enough substitution. This can give you the 'high' and let you forget about other problems, it can even help you see things from a different perspective. So you treat it like a drug, a sort of escape that gets you through the day/life."
+        },
+        {
+            "id": "25",
+            "message": "You connected with a stranger who appreciates you just the way you are. This made you feel happy and curious again after a long time. We change, it is normal and inevitable. You chose happiness, who could blame you for it..."
+        },
+        {
+            "id": "46",
+            "message": "You realized you last felt this was when full of hormones from falling in love. And you start to doubt you marriage.",
+            "options": [
+                {
+                    "text": "It is stupid to be this selfish. Una needs a complete family.",
+                    "next": "54"
+                },
+                {
+                    "text": "More questions...",
+                    "next": "47"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "message": "The feelings for the stranger only grow with time. Do you wanna proceed with it?",
+            "options": [
+                {
+                    "text": "Yes",
+                    "next": "41"
+                },
+                {
+                    "text": "No",
+                    "next": "42"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "message": "You start to realize that your husband could give you all that you get from the stranger. Do you give him a chance?",
+            "options": [
+                {
+                    "text": "Yes",
+                    "next": "43"
+                },
+                {
+                    "text": "No",
+                    "next": "47"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "message": "Maybe he is not the one. But what should you do now? Afterall I once committed and chose this.",
+            "options": [
+                {
+                    "text": "I committed, I am in too deep to give up now.",
+                    "next": "54"
+                },
+                {
+                    "text": "What if there is someone better for me?",
+                    "next": "48"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "message": "Do you confront you husband with these thoughts?",
+            "options": [
+                {
+                    "text": "Yes",
+                    "next": "49"
+                },
+                {
+                    "text": "No",
+                    "next": "50"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "message": "Anything can happen here. I've been here. I hope this is a happy ending. Only time can tell."
+        },
+        {
+            "id": "49",
+            "message": "You husband is shocked. It doesn't match his thoughts at all. He listens to your thoughts and tries his best to help you not feel like you are missing something in the marriage.",
+            "options": [
+                {
+                    "text": "This could still work.",
+                    "next": "43"
+                },
+                {
+                    "text": "We have tried this for long enough. I need to move on.",
+                    "next": "50"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "message": "You start looking online for potential partners and generally open up to that possibility. There are thousands of options, you feel like a kid in a candy store. You easily identify those who have what you are looking for. But do they have the rest, the qualities you like in your husband? Is it worth risking the life you have built?",
+            "options": [
+                {
+                    "text": "We will see",
+                    "next": "41"
+                },
+                {
+                    "text": "No",
+                    "next": "43"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "message": "You see the effort your husband starts putting into your marriage and you get comfortable. There are still things missing in your life, but you chose not to focus on them. You are there for your family."
+        }
+    ]
+}
