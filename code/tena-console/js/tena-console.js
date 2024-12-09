@@ -61,11 +61,13 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'echo':
                 return args.slice(1).join(' ').replace(/"/g, '');
             case 'help':
-                return 'Available commands:\nhelp\necho "[TEXT]"\nstart [PASSWORD]';
+                return 'Available commands:\nhelp\necho "[TEXT]"\nstart [PASSWORD]\npwd';
             case 'start':
                 return game.startGame(args[1]);
-            case 'next':
-                return game.getCurrentStage();
+            case 'sudo':
+                return 'Oh, you think you are a hacker now? Sorry but we are not there yet.';
+            case 'pwd':
+                return '/root/relationships/sophia/game';
             default:
                 return `Command not found: ${command}`;
         }
