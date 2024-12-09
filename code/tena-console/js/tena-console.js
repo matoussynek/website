@@ -2,6 +2,7 @@ import Game from './game.js';
 document.addEventListener('DOMContentLoaded', () => {
     const terminalBody = document.getElementById('terminal-body');
     const commandInput = document.getElementById('command-input');
+    commandInput.focus();
     const game = new Game();
 
     commandInput.addEventListener('keydown', (event) => {
@@ -35,8 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function processCommand(command) {
         let args = command.split(' ').map(arg => arg.trim()).filter(arg => arg);
 
+        if (command.toLowerCase().includes('love you')) {
+            const art = ",d88b.d88b,\n88888888888\n`Y8888888Y'\n  `Y888Y'\n    `Y'\n".replaceAll(" ", "&nbsp;");
+            return "I love you too!\n" + art;
+        }
+
         if (game.running) {
-            switch (args[0]) {
+            switch (args[0].toLowerCase()) {
                 case 'help':
                     return 'Available commands:\nhelp\ninfo\nrestart\nend';
                 case 'info':
@@ -51,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        switch (args[0]) {
+        switch (args[0].toLowerCase()) {
             case 'echo':
                 return args.slice(1).join(' ').replace(/"/g, '');
             case 'help':

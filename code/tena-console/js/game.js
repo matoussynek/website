@@ -43,6 +43,15 @@ export default class Game{
         return this.currentMessage + '\n' + this.currentOptions.map((option, i) => (i+1) + ': ' + option.text).join('\n');
     }
     answer(optionIndex){
+        if (optionIndex == 451) {
+            return 'I love that you are listening to me and my stories!!';
+        }
+        if (optionIndex == 129) {
+            return 'I love you too!';
+        }
+        if (optionIndex < 1 || optionIndex > this.currentOptions.length){
+            return 'What are you trying to pull here? there are definitely no secrets hidden here...';
+        }
         let option = this.currentOptions[optionIndex-1];
         let nextStage = option.next;
         this.loadStage(nextStage);
