@@ -27,11 +27,14 @@ export default class Game{
         }
         this.loadStage(1);
         this.running = true;
-        return this.getCurrentStage(); 
+        return this.startGameMessage() + this.getCurrentStage(); 
     }
     restartGame(){
         this.loadStage(1);
-        return this.getCurrentStage();
+        return this.startGameMessage() + this.getCurrentStage();
+    }
+    startGameMessage(){
+        return "Hi you,\n\nDISCLAIMER: This is a work of a fiction and my imagination, any resemblance between anyone living or dead is entirely coincidental.\nThis is a text-based game. You can play by typing commands (numbers). Type 'help' to see the available commands.\n\nEnjoy!\n\n";
     }
     getCurrentStage(){
         if (this.currentOptions == null || this.currentOptions.length == 0){

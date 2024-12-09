@@ -107,3 +107,12 @@ input[type="text"] {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  .help-text {
+    color: #666666;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 5%;
+}
