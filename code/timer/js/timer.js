@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 25, 2024 20:25:00").getTime();
+var countDownDate = new Date("Jan 2, 2025 16:15:00").getTime();
 
 const earth_speed = 29.7246; // km/s
 const hair_speed = 18.0; //nm/s
